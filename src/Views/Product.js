@@ -61,7 +61,11 @@ function Product() {
                 </div>
                 <div className="col-12 col-md-9 p-0">
                     <div className="row m-0 p-0 ">
-                        <h2 className="p-3">M17 INGLÉS BORDADO</h2>
+                        <h2 className="p-3 m-0">M17 INGLÉS BORDADO</h2>
+                        <h6> Category: 
+                        <NavLink className="text-dark" aria-current="page" exact to="/Category"><span className='ms-2'>Embroidered</span></NavLink>
+                        </h6>
+                       
                     </div>
                     <div className="m-3 p-0">
                         <select className="form-select form-select-sm m-2" aria-label=".form-select-sm example">

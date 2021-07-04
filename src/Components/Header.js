@@ -25,7 +25,7 @@ function Header() {
                                 <NavLink className="nav-link" to="/Categories"> Categories </NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" exact to="/CartProducts"> Cart </NavLink>
+                                <NavLink className="nav-link" to="/CartProducts"> Cart </NavLink>
                             </li>
                         </ul>
                     </div>

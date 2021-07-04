@@ -57,7 +57,7 @@ function CartProducts() {
             <div className="bg-white row d-flex align-items-center g-0 border" >
 
                 <div className="col-4 col-md-1">
-                    <NavLink className="nav-link" to=""><img alt="shoe" className=" img-fluid" src={product.image}></img> </NavLink>
+                    <div className="nav-link" ><img alt="shoe" className=" img-fluid" src={product.image}></img> </div>
                 </div>
 
                 <div className="col-4 col-md-3 text-center">
